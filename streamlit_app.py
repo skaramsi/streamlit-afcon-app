@@ -74,7 +74,7 @@ if match_choice:
         passe(df_team_selected, teams_choice)
         st.caption ('Data By Statsbomb')
     elif selected_plot == 'Pressure heatmap':
-        st.subheader('Pressure Heatmap')
+        st.subheader('Pressure heatmap')
         pressure_heatmap(df, teams_choice)
     elif selected_plot == 'Shots':
         st.subheader('Shots')
